@@ -16,15 +16,13 @@
     </dependency>
   </dependencies>
   <dependencies>
-    <dependency>
-      <groupId>org.sonarsource.scanner.maven</groupId>
-      <artifactId>sonar-maven-plugin</artifactId>
-      <version>4.0.0.1744</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
   <build>
     <plugins>
+      <plugin>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>3.6.0.1398</version>
+      </plugin>
       <plugin>
         <!-- Build an executable JAR -->
         <groupId>org.apache.maven.plugins</groupId>
