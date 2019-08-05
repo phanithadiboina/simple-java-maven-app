@@ -21,7 +21,7 @@
         <!-- Build an executable JAR -->
         <groupId>org.sonarsource.scanner.maven</groupId>
         <artifactId>sonar-maven-plugin</artifactId>
-        <version>3.6.0.1398</version>
+        <version>4.0.0.1744</version>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.0</version>
